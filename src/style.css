@@ -134,6 +134,69 @@ footer a {
   object-fit: cover;
 }
 
+.section-two {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/background-three.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 60px;
+  text-align: center;
+}
+
+.section-two h3 {
+  font-size: 13px;
+}
+
+.section-two h1 {
+  text-transform: none;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.card-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.video {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+  text-align: left;
+}
+
+.card-text {
+  padding: 20px;
+  font-size: 16px;
+  color: rgba(39, 32, 68, 1);
+}
+
+.card-text h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card-text a {
+  background-color: #885df1;
+  border-radius: 30px;
+  padding: 18px 30px;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   header {
     padding: 120px 0;
@@ -158,5 +221,13 @@ footer a {
 
   .section-one {
     grid-template-columns: 1fr;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .video {
+    height: 300px;
   }
 }
